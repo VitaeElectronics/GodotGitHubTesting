@@ -1,3 +1,6 @@
-[gd_scene format=2]
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="SpatialMaterial" id=1]
 
 [node name="CSGBox" type="CSGBox"]
+material = SubResource( 1 )
